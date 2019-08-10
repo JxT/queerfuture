@@ -1,0 +1,89 @@
+
+/* Info CSS stylesheet */
+
+/* ==== Header ==== */
+
+header h1 {
+	color: #8540C8;
+	font-size: 25px;
+	padding-top: 50px;
+}
+
+header h2 {
+	color: rgb(47,47,47);
+	font-size: 16px;
+	padding-top: 3px;
+	padding-bottom: 20px;
+}
+
+
+
+/* ==== Info section ==== */
+
+section.info .lightbox {
+	margin-top: 10px;
+	padding: 50px 40px;
+	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.06);
+}
+
+section.info h3 {
+	text-align: center;
+	font-size: 15px;
+	color: rgb(146,146,146);
+}
+
+section.info .point {
+	text-align: center;
+}
+
+section.info .point img {
+	display: inline-block;
+	width: 95px;
+	margin: 0 25px 65px 0;
+}
+
+section.info .point section {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+
+section.info .point h1 {
+	max-width: 265px;
+	font-size: 19px;
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+
+section.info .point#face h1 {
+	color: #8540C8;
+}
+
+section.info .point#mic h1 {
+	color: #E14CAA;
+}
+
+section.info .point#anon h1 {
+	color: #98C840;
+}
+
+section.info .lightbox p {
+	max-width: 265px;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgb(55,55,55);
+}
+
+section.info .lightbox p span {
+	font-weight: bold;
+}
+
+section.info .lightbox .button {
+	background: rgb(33,124,211);
+	border-color: rgb(24,38,140);
+}
+
+
+
+
+
