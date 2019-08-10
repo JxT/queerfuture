@@ -1,0 +1,66 @@
+
+/*! @uiw/reset.css v1.0.3 | MIT (c) 2019  |  */
+blockquote,body,dd,dl,dt,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,html,iframe,legend,li,ol,p,pre,textarea,ul{padding:0;margin:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}embed,iframe,img,object,video{height:auto;max-width:100%}audio{max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
+
+
+/* ==== Globals ==== */
+
+.container {
+	width: 670px;
+	margin: 0 auto;
+}
+
+
+/* ==== Header ==== */
+
+header {
+	padding-top: 50px;
+	height: 430px;
+	background: red;
+}
+
+header nav img {
+	display: inline-block;
+}
+
+
+/* Menu */
+
+header .menu {
+	display: inline-block;
+	float: right;
+	font-size: 0; /* Removes spacing between a tags inside .menu */
+}
+
+header .menu a {
+	display: inline-block;
+
+	min-width: 60px;
+	margin: 0 -2px 0 0;
+	padding: 7px 15px 5px;
+	
+	background: rgb(255,255,255);
+	border: 1px solid rgb(0,0,0);
+
+	color: rgb(0,0,0);
+	font: 12px "Karla", sans-serif;
+    font-weight: normal;
+	font-weight: 600;
+
+	text-align: center;
+	text-decoration: none;
+}
+
+
+header .menu a:hover {
+	background: rgb(100,100,100) !important;
+	color: rgb(255,255,255);
+}
+
+
+header .menu a#selected {
+	background: rgb(0,0,0);
+	color: rgb(255,255,255);
+}
+
+
