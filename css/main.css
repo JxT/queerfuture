@@ -5,11 +5,34 @@ blockquote,body,dd,dl,dt,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,html,iframe,legend
 
 /* ==== Globals ==== */
 
+body {
+	font-family: "Karla", sans-serif;
+}
+
 .container {
 	width: 670px;
 	margin: 0 auto;
 }
 
+/* Button */
+.button {
+	color: rgb(255,255,255);
+	background: rgb(100,100,100);
+	border-bottom: 2px solid rgb(0,0,0);
+
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+
+	padding: 8px 15px 6px;
+	display: inline-block;
+}
+
+.button:hover {
+	border: none;
+	margin-top: 2px;
+	opacity: 0.8;
+}
 
 /* ==== Header ==== */
 
@@ -43,7 +66,7 @@ header .menu a {
 	border: 1px solid rgb(0,0,0);
 
 	color: rgb(0,0,0);
-	font: 12px "Karla", sans-serif;
+	font-size: 12px;
     font-weight: normal;
 	font-weight: 600;
 
