@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="116px" height="133px" viewBox="0 0 116 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="What?" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet-Portrait" transform="translate(-603.000000, -235.000000)">
+            <g id="Group" transform="translate(603.000000, 235.000000)">
+                <path d="M66.160763,109 L73.6013652,109 L73.6013652,90.5670002 C87.2004551,79.8353899 94,68.8134773 94,57.5012624 C94,40.5329401 82.4416689,21 59.7108144,21 C36.97996,21 23,37.4623554 23,54.6136435 C23,66.0478357 29.3761956,78.0322879 42.1285867,90.5670002 L42.1285867,109 L49.2679208,109 L49.2679208,87.3514867 C37.1523124,78.0760107 31.0945082,67.1633963 31.0945082,54.6136435 C31.0945082,41.2061919 45.8202637,29.6325024 59.7108144,29.6325024 C73.6013652,29.6325024 85.6466778,39.6964145 85.6466778,57.5012624 C85.6466778,69.371161 79.1513729,79.3212358 66.160763,87.3514867 L66.160763,109 Z" id="Path-2" fill="#F8C81C"></path>
+                <path d="M39,112 L73,112 L73,117.25 L39,117.25 L39,112 Z M42.9230769,119.875 L70.3846154,119.875 L70.3846154,125.125 L42.9230769,125.125 L42.9230769,119.875 Z M50.7692308,127.75 L63.8461538,127.75 L63.8461538,133 L50.7692308,133 L50.7692308,127.75 Z" id="Combined-Shape" fill="#D8D8D8"></path>
+                <rect id="Rectangle" fill="#F8C81C" x="53" y="0" width="7" height="14"></rect>
+                <polygon id="Rectangle-Copy-19" fill="#F8C81C" transform="translate(108.500000, 60.000000) rotate(90.000000) translate(-108.500000, -60.000000) " points="105 53 112 53 112 67 105 67"></polygon>
+                <polygon id="Rectangle-Copy-20" fill="#F8C81C" transform="translate(7.500000, 60.000000) rotate(90.000000) translate(-7.500000, -60.000000) " points="4 53 11 53 11 67 4 67"></polygon>
+                <polygon id="Rectangle-Copy-21" fill="#F8C81C" transform="translate(96.911657, 23.632015) rotate(45.000000) translate(-96.911657, -23.632015) " points="93.7488874 16.6614519 100.088715 16.6549573 100.074427 30.6025788 93.7345992 30.6090734"></polygon>
+                <polygon id="Rectangle-Copy-22" fill="#F8C81C" transform="translate(18.217257, 22.365349) rotate(-45.000000) translate(-18.217257, -22.365349) " points="15.0401992 15.3882907 21.3800272 15.3947853 21.3943153 29.3424068 15.0544874 29.3359122"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
