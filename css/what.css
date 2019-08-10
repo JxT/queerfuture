@@ -1,17 +1,6 @@
 
 /* What CSS stylesheet */
 
-/* ==== Header ==== */
-
-header {
-	border-top: 12px solid;
-	padding-top: 38px;
-	border-image: linear-gradient(to left, #9C4A9A 0%, #0093D4 25%, #159663 50%, #F6E826 75%, #F64A42 100%);
-	border-image-slice: 1;
-}
-
-
-
 /* ==== What section ==== */
 
 section.what {
