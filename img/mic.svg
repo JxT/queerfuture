@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="123px" viewBox="0 0 120 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="What?" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet-Portrait" transform="translate(-552.000000, -608.000000)">
+            <g id="Group" transform="translate(552.000000, 608.000000)">
+                <circle id="Oval" fill="#E14CAA" cx="60" cy="60" r="60"></circle>
+                <rect id="Rectangle" fill="#FFFFFF" x="49" y="22" width="23" height="53" rx="11.5"></rect>
+                <path d="M65,88.9776773 L65,123 L57,123 L57,89 C44.8497355,89 35,79.1502645 35,67 C35,65.2801001 35.1973601,63.6062962 35.5706686,62 L44,62 L44,67 C44,75.2842712 50.7157288,82 59,82 L63,82 C71.2842712,82 78,75.2842712 78,67 L78,62 L85.4293314,62 C85.8026399,63.6062962 86,65.2801001 86,67 C86,78.8151281 76.6861342,88.4548863 65,88.9776773 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

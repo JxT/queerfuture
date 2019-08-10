@@ -26,6 +26,7 @@ body {
 
 	padding: 8px 15px 6px;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .button:hover {
