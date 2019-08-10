@@ -141,3 +141,50 @@ section.upcoming aside section.venue {
 }
 
 
+
+/* ==== What doing ==== */
+
+section.whatdoing {
+	padding: 50px 0;
+	font-size: 0;
+}
+
+section.whatdoing h1{
+	font-size: 19px;
+	color: rgb(99,99,99);
+}
+
+section.whatdoing .step {
+	width: 180px;
+	display: inline-block;
+	font-size: 14px;
+	padding: 20px;
+	vertical-align: top;
+}
+
+
+
+/* ==== Learn more ==== */
+
+section.learnmore {
+	padding: 50px 0;
+	font-size: 0;
+}
+
+section.learnmore h1{
+	font-size: 19px;
+	color: rgb(99,99,99);
+}
+
+section.learnmore .buttons {
+	text-align: center;
+	padding: 20px 0;
+	word-spacing: 20px;
+}
+
+section.learnmore .buttons .button {
+	word-spacing: normal;
+	vertical-align: top;
+	background: rgb(33,124,211);
+	border-color: rgb(24,38,140);
+}
