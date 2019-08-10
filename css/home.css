@@ -76,7 +76,6 @@ section.upcoming {
 	box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.13);
 }
 
-
 section.upcoming h1 {
 	font-size: 24px;
 	font-weight: bold;
@@ -85,7 +84,9 @@ section.upcoming h1 {
 
 section.upcoming .workshop {
 	width: 165px;
-	border-top: 3px solid black;
+	border-top: 3px solid;
+	border-image: linear-gradient(to right, #61FAF9 0%, #F7E21C 100%);
+	border-image-slice: 1;
 
 	margin: 50px 50px 0 0;
 	padding: 12px 0 0 0;
@@ -93,7 +94,6 @@ section.upcoming .workshop {
 	display: inline-block;
 	vertical-align: top;
 }
-
 
 section.upcoming .workshop h1 {
 	font-size: 20px;
@@ -120,6 +120,20 @@ section.upcoming .workshop p {
 section.upcoming .workshop .button {
 	background-color: rgb(39,198,0);
 	border-color: rgb(0,131,60);
+}
+
+section.upcoming .workshop#b {
+	border-image: linear-gradient(to right, #FF00A3 0%, #6B00FF 100%);
+	border-image-slice: 1;
+}
+
+section.upcoming .workshop#b h1 {
+	color: rgb(255,0,207);
+}
+
+section.upcoming .workshop#b .button {
+	background-color: rgb(223,0,183);
+	border-color: rgb(131,0,96);
 }
 
 
