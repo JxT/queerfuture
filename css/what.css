@@ -86,5 +86,45 @@ section.study .lightbox .button {
 
 
 
+/* ==== FAQs section ==== */
+
+section.faqs h1.title {
+	font-size: 24px;
+	font-weight: bold;
+	color: rgb(178, 178, 178);
+	margin-top: 65px;
+	padding-bottom: 10px;
+}
+
+section.faqs .question {
+	margin-top: 20px;
+	padding: 35px 30px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.07);
+}
+
+section.faqs .question h1 {
+	width: 200px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 23px;
+	color: rgb(0,0,0);
+	display: inline-block;
+	margin-right: 50px;
+	vertical-align: top;
+}
+
+section.faqs .question p br {
+	height: 20px;
+}
+
+section.faqs .question p {
+	max-width: 350px;
+	font-size: 15px;
+	line-height: 23px;
+	display: inline-block;
+	vertical-align: top;
+}	
+
+
 
 
