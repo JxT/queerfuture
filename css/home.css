@@ -9,6 +9,19 @@ header {
 	height: 430px;
 }
 
+header .rainbowAni {
+	height: 500px;
+}
+
+header .rainbowAni .movement#b,
+header .rainbowAni .movement#c  {
+	margin-top: -500px;
+}
+
+header .rainbowAni + .container {
+	margin-top: -500px;
+}
+
 header nav {
 	padding-bottom: 70px;
 }
@@ -33,22 +46,6 @@ header h2 {
 	margin-bottom: 2px;
 }
 
-header .container {
-	margin-top: -430px;
-}
-
-
-header .movement {
-	height: 430px;
-}
-
-header .movement#b {
-	margin-top: -430px;
-}
-
-header .movement#c {
-	margin-top: -430px;
-}
 
 /* ==== Upcoming section ==== */
 
@@ -258,21 +255,25 @@ section.learnmore .buttons .button {
 
 
 
-
-
-
-
-
 /* Responsive code */
 
 @media screen and (max-width: 670px) {
 
-	header nav {
-		padding-bottom: 25px;
+	header input#mobileNavButton:checked + .rainbowAni + .container nav {
+		margin: -530px 0 0 -30px;
 	}
 
+	header nav {
+		padding-bottom: 10px;
+	}
+
+	header nav + h1 {
+		margin-top: 75px;
+	}
+
+
 	header nav .container {
-		margin-top: -12px;
+		margin-top: 20px;
 	}
 
 	header h1, header h2 {
