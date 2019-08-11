@@ -96,6 +96,32 @@ section.info section p span {
 
 
 
+@media screen and (max-width: 670px) {
+
+	section.aboutme {
+		height: auto;
+		padding: 20px;
+	}
+
+	section.aboutme img {
+		float: none;
+		height: 150px;
+	}
+	
+	section.aboutme h1 {
+		padding-top: 10px;
+	}
+
+	section.info .container {
+		padding: 0;
+	}
+
+	section.info img {
+		width: 220px;
+		padding: 15px 30px;
+	}
+
+}
 
 
 
