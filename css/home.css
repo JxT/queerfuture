@@ -147,13 +147,16 @@ section.whatdoing {
 }
 
 section.whatdoing h1{
-	display: inline-block;
 	font-size: 19px;
 	color: rgb(99,99,99);
+	padding-right: 14px;
+	float: left;
 }
 
-section.whatdoing img.bars {
-	float: right;
+section.whatdoing .bars {
+	background: url('../img/linesPink.svg');
+	height: 24px;
+	overflow: auto;
 }
 
 section.whatdoing .step {
@@ -177,6 +180,7 @@ section.whatdoing .step img {
 section.whatdoing .step h1 {
 	padding-left: 25px;
 	font-weight: bold;
+	float: none;
 }
 
 section.whatdoing .step p {
@@ -211,6 +215,7 @@ section.whatdoing .step#b {
 	margin: 0 -70px 0 -20px;
 	padding-left: 50px;
 }
+
 section.whatdoing .step#c {
 	margin: 0 -70px 0 -20px;
 	padding-left: 70px;
@@ -225,13 +230,16 @@ section.learnmore {
 }
 
 section.learnmore h1{
-	display: inline-block;
 	font-size: 19px;
 	color: rgb(99,99,99);
+	padding-right: 14px;
+	float: left;
 }
 
-section.learnmore img{
-	float: right;
+section.learnmore .bars{
+	background: url('../img/linesBlue.svg');
+	height: 24px;
+	overflow: auto;
 }
 
 
@@ -271,13 +279,45 @@ section.learnmore .buttons .button {
 		float: none;
 	}
 
-
 	section.upcoming aside {
 		float: none;
 		width: 100%;
 		margin: 20px 0 0 0;
 		padding-top: 20px;
 		border-top: 1px solid;
+	}
+
+	section.whatdoing,section.learnmore {
+		overflow: hidden;
+	}
+
+	section.whatdoing .bars,
+	section.learnmore .bars {
+		transform: scale(1,0.5);
+	}
+
+	section.whatdoing .step#a {
+		width: 299px;
+		background-image: url('../img/arrowBox.svg');
+		margin-bottom: -40px;
+		display: block;
+	}
+
+	section.whatdoing .step#b {
+		margin-bottom: -40px;
+		padding-left: 20px;
+		display: block;
+	}
+
+	section.whatdoing .step#c {
+		margin-bottom: -40px;
+		padding-left: 20px;
+		display: block;
+	}
+
+
+	section.learnmore .buttons .button {
+		margin-bottom: 20px;
 	}
 
 }
