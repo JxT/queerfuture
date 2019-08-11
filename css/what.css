@@ -143,6 +143,10 @@ section.faqs .question p {
 		width: 60px;
 	}
 
+	section.study .lightbox .button {
+		margin-bottom: 20px;
+	}
+
 }
 
 
