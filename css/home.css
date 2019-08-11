@@ -6,7 +6,7 @@
 
 header {
 	color: rgb(255,255,255);
-	height: 430px;
+	padding: 50px 0;
 }
 
 header .rainbowAni {
@@ -259,11 +259,32 @@ section.learnmore .buttons .button {
 
 @media screen and (max-width: 670px) {
 
-	header input#mobileNavButton:checked + .rainbowAni + .container nav {
-		margin: -530px 0 0 -30px;
+	/* Make rainbow animation full screen on menu open */
+
+	header input#mobileNavButton:checked + .rainbowAni {
+		height: 1000px;
 	}
 
+	header input#mobileNavButton:checked + .rainbowAni #b{
+		margin-top: -1000px;
+	}
+
+	header input#mobileNavButton:checked + .rainbowAni #c{
+		margin-top: -1000px;
+	}
+	
+	header input#mobileNavButton:checked + .rainbowAni + .container{
+		margin: 10530px 0 0 -30px;
+	}
+
+
+	header input#mobileNavButton:checked + .rainbowAni + .container nav {
+		margin: -11580px 0 0 0;
+	}
+
+
 	header nav {
+		margin-top: -50px;
 		padding-bottom: 10px;
 	}
 
