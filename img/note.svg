@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="41px" viewBox="0 0 59 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="6.98018312 0 0 3.78604794 6.98018312 8.03876141"></polygon>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet-Portrait-Copy" transform="translate(-543.000000, -1059.000000)">
+            <g id="Group-15" transform="translate(544.000000, 1059.000000)">
+                <polygon id="Rectangle" stroke="#2B2626" fill="#FFFFFF" transform="translate(15.719626, 23.588094) rotate(-16.000000) translate(-15.719626, -23.588094) " points="3.64688596 10.0090521 27.4028429 10.3386489 27.7923664 37.1671349 4.03640945 36.8375381"></polygon>
+                <g id="Group-14" transform="translate(35.548037, 16.580804) rotate(-32.000000) translate(-35.548037, -16.580804) translate(12.548037, 11.818899)">
+                    <rect id="Rectangle" fill="#F8BF1C" x="7.27634567" y="0.452949175" width="35.2336449" height="8.22055138"></rect>
+                    <rect id="Rectangle-Copy-23" fill="#F73C53" x="42.7452065" y="0.478445078" width="3.25233645" height="8.22055138"></rect>
+                    <g id="Rectangle" transform="translate(0.167881, 0.618220)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#DBD9BA" xlink:href="#path-1"></use>
+                        <rect fill="#1C1C1C" mask="url(#mask-2)" x="-1.34223409" y="0.632350106" width="4.02670227" height="6.00732601"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

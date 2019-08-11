@@ -150,18 +150,69 @@ section.whatdoing h1{
 	color: rgb(99,99,99);
 }
 
-section.whatdoing img{
+section.whatdoing img.bars {
 	float: right;
 }
 
 section.whatdoing .step {
-	width: 180px;
-	display: inline-block;
+	width: 299px;
+	height: 211px;
+	background-image: url('../img/arrowBox.svg');
 	font-size: 14px;
 	padding: 20px;
+	position: relative;
+	display: inline-block;
 	vertical-align: top;
+
 }
 
+section.whatdoing .step img {
+	margin: 25px 0 15px 25px;
+	height: 40px;
+	display: block;
+}
+
+section.whatdoing .step h1 {
+	padding-left: 25px;
+	font-weight: bold;
+}
+
+section.whatdoing .step p {
+	width: 180px;
+	font-size: 14px;
+	padding-left: 25px;
+	color: rgb(81,81,81);
+}
+
+section.whatdoing .step#a {
+	width: 269px;
+	background-image: url('../img/arrowBoxSmall.svg');
+
+	z-index: 10;
+	margin: 0 -47px 0 -20px;
+}
+
+section.whatdoing .step#a h1 {
+	color: #4A90E2;
+}
+
+section.whatdoing .step#b h1 {
+	color: #FB9C00;
+}
+
+section.whatdoing .step#c h1 {
+	color: #D0021B;
+}
+
+section.whatdoing .step#b {
+	z-index: 5;
+	margin: 0 -70px 0 -20px;
+	padding-left: 50px;
+}
+section.whatdoing .step#c {
+	margin: 0 -70px 0 -20px;
+	padding-left: 70px;
+}
 
 
 /* ==== Learn more ==== */
@@ -194,3 +245,5 @@ section.learnmore .buttons .button {
 	background: rgb(33,124,211);
 	border-color: rgb(24,38,140);
 }
+
+
