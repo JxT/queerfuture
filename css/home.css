@@ -268,11 +268,11 @@ section.learnmore .buttons .button {
 @media screen and (max-width: 670px) {
 
 	header nav {
-		padding-bottom: 20px;
+		padding-bottom: 25px;
 	}
 
-	header nav .menu {
-		display: none;
+	header nav .container {
+		margin-top: -12px;
 	}
 
 	header h1, header h2 {
