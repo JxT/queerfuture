@@ -65,6 +65,7 @@ section.upcoming h1 {
 
 section.upcoming .workshop {
 	width: 165px;
+	border: 0;
 	border-top: 3px solid;
 	border-image: linear-gradient(to right, #61FAF9 0%, #F7E21C 100%);
 	border-image-slice: 1;
