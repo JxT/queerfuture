@@ -48,6 +48,7 @@ header nav img {
 	display: inline-block;
 }
 
+
 /* Header rainbow animate */
 
 header .container {
@@ -98,15 +99,15 @@ header .movement#c
 
 
 
-/* Menu */
+/* Desktop Menu */
 
-header .menu {
+header .desktopMenu {
 	display: inline-block;
 	float: right;
 	font-size: 0; /* Removes spacing between a tags inside .menu */
 }
 
-header .menu a {
+header .desktopMenu a {
 	display: inline-block;
 
 	min-width: 60px;
@@ -126,13 +127,13 @@ header .menu a {
 }
 
 
-header .menu a:hover {
+header .desktopMenu a:hover {
 	background: rgb(100,100,100) !important;
 	color: rgb(255,255,255);
 }
 
 
-header .menu a#selected {
+header .desktopMenu a#selected {
 	background: rgb(0,0,0);
 	color: rgb(255,255,255);
 }

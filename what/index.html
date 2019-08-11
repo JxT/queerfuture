@@ -16,13 +16,31 @@
 
 		<div class='container'>
 			<nav>
-				<img src='../img/logo.svg' alt="Queer Future" title="Queer Future">
+				<input type="checkbox" id='mobileNavButton' tabindex='5'>
 
-				<div class='menu'>
+				<label for='mobileNavButton'>
+					<a></a>
+					<a></a>
+					<a></a>
+				</label>
+
+				<img src='../img/logo.svg' alt="Queer Future" title="Queer Future">
+				
+
+				<div class='desktopMenu'>
 					<a href='/'>Home</a>
 					<a id='selected' href='/what/'>What?</a>
 					<a href='/info/'>Practical Info</a>
 					<a href='/contact/'>Contact</a>
+				</div>
+
+				<div class='mobileMenu'>
+					<div class='container'>
+						<a href='/'>Home</a>
+						<a id='selected' href='/what/'>What?</a>
+						<a href='/info/'>Practical Info</a>
+						<a href='/contact/'>Contact</a>
+					</div>
 				</div>
 			</nav>
 		</div>
