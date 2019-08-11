@@ -145,8 +145,13 @@ section.whatdoing {
 }
 
 section.whatdoing h1{
+	display: inline-block;
 	font-size: 19px;
 	color: rgb(99,99,99);
+}
+
+section.whatdoing img{
+	float: right;
 }
 
 section.whatdoing .step {
@@ -162,18 +167,24 @@ section.whatdoing .step {
 /* ==== Learn more ==== */
 
 section.learnmore {
-	padding: 50px 0;
+	padding: 50px 0 0;
 	font-size: 0;
 }
 
 section.learnmore h1{
+	display: inline-block;
 	font-size: 19px;
 	color: rgb(99,99,99);
 }
 
+section.learnmore img{
+	float: right;
+}
+
+
 section.learnmore .buttons {
 	text-align: center;
-	padding: 20px 0;
+	padding: 40px 0;
 	word-spacing: 20px;
 }
 
