@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="334px" height="124px" viewBox="0 0 334 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Path Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="-2.22044605e-14%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#9C4A9A" offset="0%"></stop>
+            <stop stop-color="#0093D4" offset="32.4288259%"></stop>
+            <stop stop-color="#159663" offset="49.6472421%"></stop>
+            <stop stop-color="#F6E826" offset="66.3810551%"></stop>
+            <stop stop-color="#F64A42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,69.9425904 L52.0885132,124 C86.1811783,91.2364182 124.413068,74.8546274 166.784184,74.8546274 C209.155299,74.8546274 247.555788,91.2364182 281.98565,124 L334,71.245755 C285.512109,23.748585 230.099975,0 167.763597,0 C105.427219,2.82876171e-15 49.5060198,23.3141968 0,69.9425904 Z" id="Path-Copy-2" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>
